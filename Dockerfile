@@ -11,5 +11,5 @@ RUN gem install capistrano -v "=3.4.0" && \
                 arr-pm \
                 backports
 
-ADD caprun.sh /cap.sh
+ADD cap.sh /cap.sh
 RUN chmod +x /cap.sh
