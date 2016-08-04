@@ -2,7 +2,7 @@ FROM ruby:2.3.1
 
 MAINTAINER Björn Heneka <bheneka@codebee.de>
 
-RUN gem install capistrano -v "=3.4.0" && \
+RUN gem install capistrano -v "=3.5.0" && \
     gem install cabin \
                 childprocess \
                 gem-wrappers \
